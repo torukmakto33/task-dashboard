@@ -9,7 +9,7 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "android:sync": "npm run build && cap sync android",
-    "android:build": "npm run android:sync && gradlew.bat -p android assembleDebug"
+    "android:build": "npm run android:sync && cd android && .\\gradlew.bat assembleDebug"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.1",
